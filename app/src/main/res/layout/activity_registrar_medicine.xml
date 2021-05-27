@@ -67,6 +67,5 @@
         android:background="@color/secondaryColor"
         android:paddingTop="100px"
         android:shadowColor="@color/secondaryDarkColor"
-        android:textColor="@color/secondaryDarkColor"
         android:textColorHint="@color/secondaryDarkColor" />
 </LinearLayout>
