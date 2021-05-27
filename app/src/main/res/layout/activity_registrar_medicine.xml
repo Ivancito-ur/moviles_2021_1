@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutut"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="50px"
+    android:paddingRight="50px"
+    tools:context=".RegisterMedicine">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_registro_medicina"
+        android:paddingTop="50px">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/registro_medicina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_registro_descripcion"
+        android:paddingTop="50px">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/registro_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_registro_sintomas"
+        android:paddingTop="50px">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/registro_sintomas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50px"
+        android:paddingBottom="100px">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/registro_imagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://imagekit.androidphoria.com/wp-content/uploads/como-buscar-una-imagen-en-facebook-con-una-foto.jpg" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/registro_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/secondaryColor"
+        android:paddingTop="100px"
+        android:shadowColor="@color/secondaryDarkColor"
+        android:textColor="@color/secondaryDarkColor"
+        android:textColorHint="@color/secondaryDarkColor" />
+</LinearLayout>

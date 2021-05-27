@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "342514525191",
+    "project_id": "movil2021-medi",
+    "storage_bucket": "movil2021-medi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342514525191:android:11d7f2bd7cd49ee63bf6a2",
+        "android_client_info": {
+          "package_name": "com.ufps.movil2021_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342514525191-2uiv240lcb9gia89pt4s6gftcmkll167.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM6M0yCRoDZrZUY5bIhh_D6KaunrvleXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342514525191-2uiv240lcb9gia89pt4s6gftcmkll167.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

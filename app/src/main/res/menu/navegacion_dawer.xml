@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/medicinas"
+            android:title="@string/tab_medicine"
+            android:icon="@drawable/ic_medication_black_24dp"
+            >
+        </item>
+        <item android:id="@+id/horarios"
+            android:title="@string/tab_time"
+            android:icon="@drawable/ic_schedule_black_24dp">
+        </item>
+        <item android:id="@+id/perfiles"
+            android:title="@string/tab_profile"
+            android:icon="@drawable/ic_person_black_24dp">
+
+        </item>
+    </group>
+</menu>
