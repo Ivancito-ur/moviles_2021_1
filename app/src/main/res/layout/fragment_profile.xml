@@ -3,43 +3,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="100px"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ProfileFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    >
 
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_person_black_24dp"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        app:srcCompat="@drawable/instagram_foto_de_perfil_4"
+
         >
 
     </ImageView>
 
     <TextView
         android:id="@+id/textNombre"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="Nombre del perfil" />
+        android:text="Nombre del perfil" >
+
+    </TextView>
 
 
     <TextView
         android:id="@+id/text_correo"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:text="E - mail" />
 
     <TextView
         android:id="@+id/text_fecha_nacimiento"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:text="Fecha nacimiento" />
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:text="Descripcion" />

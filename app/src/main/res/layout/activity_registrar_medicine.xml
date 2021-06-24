@@ -47,6 +47,32 @@
     </com.google.android.material.textfield.TextInputLayout>
 
 
+
+    <include layout="@layout/activity_subida_imagen"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="100px">
+
+        <Button
+            android:id="@+id/registro_boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/secondaryColor"
+            android:text="@string/guardar"
+            android:shadowColor="@color/secondaryDarkColor"
+            android:textColorHint="@color/secondaryDarkColor" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/secondaryColor"
+        android:text="@string/volver"
+        android:shadowColor="@color/secondaryDarkColor"
+        android:textColorHint="@color/primaryColor" />
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,13 +85,4 @@
             android:layout_height="wrap_content"
             android:text="https://imagekit.androidphoria.com/wp-content/uploads/como-buscar-una-imagen-en-facebook-con-una-foto.jpg" />
     </com.google.android.material.textfield.TextInputLayout>
-
-    <Button
-        android:id="@+id/registro_boton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/secondaryColor"
-        android:paddingTop="100px"
-        android:shadowColor="@color/secondaryDarkColor"
-        android:textColorHint="@color/secondaryDarkColor" />
 </LinearLayout>
